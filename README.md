@@ -1,6 +1,6 @@
 # JWT Authentication in Golang: Securing APIs with Azure
 
-This project demonstrates how to secure APIs using JWT (JSON Web Token) authentication in Golang, leveraging Azure Active Directory for enhanced security. It accompanies this blog article, where you'll find detailed explanations and code examples.
+This project demonstrates how to secure APIs using JWT (JSON Web Token) authentication in Golang, leveraging Azure Active Directory for enhanced security. It accompanies this [blog article](https://blog.schoenwald.aero/secure-your-go-api-with-jwt-from-entraid-client-credential-flow-41caa45e4ce0), where you'll find detailed explanations and code examples.
 
 ## Features
  - Token-based authentication using JWT.
