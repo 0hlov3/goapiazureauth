@@ -32,7 +32,7 @@ func main() {
 	log := logger.InitializeZapCustomLogger(logLevel)
 	log.Info("Logger initialized", zap.Any("Level", log.Level()))
 	apiUrl := os.Getenv("AZURE_TEST_API_ENDPOINT")
-	if !helpers.ContainsEmpty(apiUrl) {
+	if helpers.ContainsEmpty(apiUrl) {
 		log.Fatal("apiUrl in Variables not set.")
 	}
 

@@ -25,7 +25,7 @@ func NewAzureEntraID(c *models.BackendConfig) models.BackendConfig {
 	c.Log.Info(fmt.Sprintf("clientID: %s", clientID))
 	c.Log.Info(fmt.Sprintf("scopes: %s", scopes))
 
-	if !helpers.ContainsEmpty(tenantID, azureADEndpoint, clientID, clientSecret) {
+	if helpers.ContainsEmpty(tenantID, azureADEndpoint, clientID, clientSecret) {
 		c.Log.Fatal("One ore more Variables not set.")
 	}
 

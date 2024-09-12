@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"github.com/0hlov3/goapiazureauth/internal/helpers"
 	"github.com/0hlov3/goapiazureauth/internal/logger"
 	"github.com/0hlov3/goapiazureauth/internal/models"
@@ -20,7 +21,8 @@ func main() {
 			Scope:    os.Getenv("AZURE_TEST_API_AUD"),
 		},
 	}
-	if !helpers.ContainsEmpty(config.Azure.TenantID, config.Azure.Scope) {
+	fmt.Println(config.Azure.TenantID, config.Azure.Scope)
+	if helpers.ContainsEmpty(config.Azure.TenantID, config.Azure.Scope) {
 		log.Fatal("TenantID or Scope in Variables not set.")
 	}
 
