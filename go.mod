@@ -10,7 +10,7 @@ require (
 	github.com/lestrrat-go/jwx v1.2.31
 	github.com/lestrrat-go/jwx/v3 v3.0.1
 	go.uber.org/zap v1.27.0
-	golang.org/x/oauth2 v0.29.0
+	golang.org/x/oauth2 v0.30.0
 )
 
 require (
