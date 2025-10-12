@@ -1,6 +1,6 @@
 module github.com/0hlov3/goapiazureauth
 
-go 1.24.0
+go 1.24.4
 
 toolchain go1.25.2
 
@@ -10,7 +10,7 @@ require (
 	github.com/google/uuid v1.6.0
 	github.com/gorilla/mux v1.8.1
 	github.com/lestrrat-go/jwx v1.2.31
-	github.com/lestrrat-go/jwx/v3 v3.0.10
+	github.com/lestrrat-go/jwx/v3 v3.0.11
 	go.uber.org/zap v1.27.0
 	golang.org/x/oauth2 v0.31.0
 )
@@ -25,6 +25,6 @@ require (
 	github.com/lestrrat-go/option v1.0.1 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	go.uber.org/multierr v1.10.0 // indirect
-	golang.org/x/crypto v0.40.0 // indirect
-	golang.org/x/net v0.41.0 // indirect
+	golang.org/x/crypto v0.42.0 // indirect
+	golang.org/x/net v0.43.0 // indirect
 )
